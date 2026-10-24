@@ -1,0 +1,24 @@
+# Secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+**/key.properties
+
+# Flutter generated files
+.dart_tool/
+build/
+.flutter-plugins-dependencies
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE files
+.idea/
+.vscode/
